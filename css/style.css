@@ -227,7 +227,7 @@ header {
     box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
     max-width: 100px;
     margin-top: -4em;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     position: relative;
     margin-bottom: 30px; }
   .bio h2 {
