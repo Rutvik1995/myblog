@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Github &mdash; Publish website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700|Inconsolata:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+    .green-bar {
+        height: 10px;
+       
+    }
+    
+    .container.gallery-container {
+        background-color: #fff;
+        color: #35373a;
+        min-height: 100vh;
+        border-radius: 20px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    }
+    
+    .tz-gallery .lightbox img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    }
+    
+    .tz-gallery img {
+        border-radius: 4px;
+    }
+    
+    
+    .inner:nth-child(4n+1) {
+        clear: left;
+    }
+    
+    .inner {
+        float: left;
+    }
+    
+    #photos {
+        /* Prevent vertical gaps */
+        line-height: 0;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 0px;
+        -moz-column-count: 3;
+        -moz-column-gap: 0px;
+        column-count: 3;
+        column-gap: 0px;
+    }
+    
+    #photos img {
+        /* Just in case there are inline attributes */
+        width: 100% !important;
+        height: auto !important;
+        padding: 5px;
+    }
+    
+    @media (max-width: 1200px) {
+        #photos {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        #photos {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        #photos {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        #photos {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+        }
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    </style>
+    
+  <body>
+    
+    <div class="wrap">
+      <header role="banner">
+        <div class="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-9 social">
+                <a href="#"><span class="fa fa-twitter"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+                <a href="#"><span class="fa fa-youtube-play"></span></a>
+              </div>
+              <div class="col-3 search-top">
+                <!-- <a href="#"><span class="fa fa-search"></span></a> -->
+                <form action="#" class="search-top-form">
+                  <!-- <span class="icon fa fa-search"></span> -->
+                  <!-- <input type="text" id="s" placeholder="Type keyword to search..."> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   
+        <div class="container logo-wrap">
+          <div class="row pt-5">
+            <div class="col-12 text-center">
+              <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
+              <h1 class="site-logo">My Summer Internship at Synegen, Inc</h1>
+              
+              <a class="category mb-5" href="#">Travel</a> 
+            </div>
+          </div>
+        </div>
+        
+        <nav class="navbar navbar-expand-md  navbar-light bg-light">
+          <div class="container">
+            
+           
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">My Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://s3-us-west-1.amazonaws.com/www.rutvikntech.com/resume2_cvDoc(3).pdf">Resume</a>
+                  </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="category.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href="category.html">Asia</a>
+                    <a class="dropdown-item" href="category.html">Europe</a>
+                    <a class="dropdown-item" href="category.html">Dubai</a>
+                    <a class="dropdown-item" href="category.html">Africa</a>
+                    <a class="dropdown-item" href="category.html">South America</a>
+                  </div>
+
+                </li> -->
+<!-- 
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="category.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href="category.html">Lifestyle</a>
+                    <a class="dropdown-item" href="category.html">Food</a>
+                    <a class="dropdown-item" href="category.html">Adventure</a>
+                    <a class="dropdown-item" href="category.html">Travel</a>
+                    <a class="dropdown-item" href="category.html">Business</a>
+                  </div> -->
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br>
+      <br>
+      <!-- END header -->
+      <div class="container">
+        <div id="photos">
+            <!-- <img class="inner" ng-repeat="image in ctrl.data.event.images" ng-src="asset/id/{{image.id}}" ng-click="ctrl.openImage(image)"> -->
+            <img src="images/Synegen1.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen2.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen3.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen4.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen5.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen6.jpg" alt="Image placeholder" class="inner">
+            <img src="images/Synegen9.jpg" alt="Image placeholder" class="inner">
+            <!-- <img src="" class="inner"> -->
+           
+
+            
+        </div>
+</div>
+  
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
